@@ -1,0 +1,20 @@
+[package]
+name = "splr-wasm"
+version = "0.1.0"
+authors = ["nicolas@theuniverse.today"]
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2.84"
+splr = { git = "https://github.com/nhatcher/splr.git", branch = "feature/nicolas-wasm" }
+
+
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.34"
+
+[profile.release]
+opt-level = "s"
