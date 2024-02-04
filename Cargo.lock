@@ -89,8 +89,9 @@ checksum = "e1cf6437eb19a8f4a6cc0f7dca544973b0b78843adbfeb3683d1a94a0024a294"
 
 [[package]]
 name = "splr"
-version = "0.17.1"
-source = "git+https://github.com/nhatcher/splr.git?branch=feature/nicolas-wasm#9cca7a346663b607d69be701d0ef0c6bb635d8bf"
+version = "0.17.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c6c8d72268886573a95520ff76c282876c69d3776e02a0b4ac8eea2b310d69ca"
 dependencies = [
  "bitflags",
  "instant",
